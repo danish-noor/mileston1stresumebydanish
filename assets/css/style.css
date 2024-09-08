@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+}
+body{
+    background-color: #ccc;
+}
+.main_resume{
+    display: flex;
+    justify-content: center;
+    background-color: #ccc;
+    height: 100%;
+}
+.resume{
+    width: 80%;
+    margin-top: 50px 0;
+    border-radius: 12px;
+    background-color: #fff;
+}
+.resume_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 15px;
+}
+.resume_header_left{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.resume_header_left_content h1{
+    font-size: 55px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.resume_header_left_content p{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.resume_header_left_img{
+    width: 150px;   
+    height: 150px;
+
+}
+.resume_header_left_img img{
+    height: 100%;
+    width: 100%;  
+
+}
+.resume_header_right{
+    width: 300px;
+}
+.resume_header_right ul{
+    list-style-type: none;
+}
+.resume_header_right ul li{
+    list-style-type: none;
+    margin-bottom: 7px;
+}
+
+.resume_header_right ul li a{
+    text-decoration: none;
+    display: flex;
+    align-items: start;
+    gap: 15px   ;
+}
+.resume_header_right ul li a i{
+    color: #000;
+    font-size: 18px;
+    margin-top: 10px    ;
+}
+.resume_header_right ul li a span{
+    color: #000;
+    font-size: 18px;
+    margin-top: 5px;
+    font-weight: 400;
+}
+.resume_header_body{
+    padding: 20px 15px;
+}
+.my_detail h6{
+    font-size: 25px;
+    font-weight: 600;
+}
+.my_detail ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+.my_detail ul li{
+    margin-bottom: 10px;
+}
+.my_detail ul li p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.my_detail ul li span{
+    color: #888;
+}
+
+.Skills h6{
+    font-size: 25px;
+    font-weight: 600;
+}
+.Skills ul li{
+    padding: 7px 0px;
+
+}
+.Skills ul li p{
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+.expereince h6{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.expereince span{
+    color: #888;
+    font-size: 16px;
+}
+.expereince p{
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.togle_btn{
+    padding: 10px ;
+    background-color: #ff8847;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    font-weight: 500;
+    border-radius: 8px;
+}
